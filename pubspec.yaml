@@ -1,0 +1,44 @@
+name: flutter_layout
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/cpw.jpg
+  - assets/images/mpu-tantular.jpg
+  - assets/images/pari.jpg
+  - assets/images/abhirama.jpg
+  - assets/images/coklat.jpg
+  - assets/images/prambon.jpg
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
